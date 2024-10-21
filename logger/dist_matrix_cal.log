@@ -1,0 +1,13 @@
+Calculating the distance matrix... 0 / 100000
+Calculating the distance matrix... 20000 / 100000
+Calculating the distance matrix... 40000 / 100000
+Calculating the distance matrix... 60000 / 100000
+Calculating the distance matrix... 80000 / 100000
+Done!
+Distance matrix saved to /data3/lhy/project/MonaLisaTSP/mona_lisa100K_dist_matrix.npy
+Traceback (most recent call last):
+  File "/data3/lhy/project/MonaLisaTSP/dist_matrix_cal.py", line 6, in <module>
+    util.calculate_distance_matrix(points_loc, matrix_path)
+  File "/data3/lhy/project/MonaLisaTSP/util.py", line 73, in wrapper
+    print(f"Execution time: {(execution_time//60):d}min {(execution_time%60):.3f}s")
+ValueError: Unknown format code 'd' for object of type 'float'

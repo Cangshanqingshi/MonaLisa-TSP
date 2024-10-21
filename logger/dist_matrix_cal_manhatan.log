@@ -1,0 +1,8 @@
+Calculating the distance matrix... 0 / 100000
+Calculating the distance matrix... 20000 / 100000
+Calculating the distance matrix... 40000 / 100000
+Calculating the distance matrix... 60000 / 100000
+Calculating the distance matrix... 80000 / 100000
+Done!
+Distance matrix saved to /data2/lhy/project/MonaLisaTSP/mona_lisa100K_dist_matrix_manhatan.npy
+Execution time: 271min 57.150s
