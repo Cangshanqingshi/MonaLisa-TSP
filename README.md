@@ -37,12 +37,12 @@ The result of A* search is shown below. The path length is 6313938.200223035.
 ![](./img/astar_one_avg_0.jpg)
 
 ## Post Process
-For existing results, first calculate the mean and variance of all line segment lengths. The endpoints of line segments with lengths outside three times the variance are considered outliers. For all outlier points, try to swap the order with points within a certain threshold around yourself. If possible, keep the length shorter to optimize the path. The Final Path Length is 6306701.946364422.
+For existing results, first calculate the mean and variance of all line segment lengths. The endpoints of line segments with lengths outside three times the variance are considered outliers. For all outlier points, try to swap the order with points within a certain threshold around yourself. If possible, keep the length shorter to optimize the path. The Final Path Length is 6303257.088980756.
 ```
 bash scripts/post_process_all_round.sh
 bash scripts/post_process_fast.sh
 ```
-![](./img/result_all_round.jpg)
+![](./img/result_fast.jpg)
 
 ---
 ## LKH Solver
